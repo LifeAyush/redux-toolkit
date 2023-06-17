@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const UserSlice = createSlice({
+const userSlice = createSlice({
   name: "user",
   intitalState: [],
   reducers: {
@@ -10,4 +10,4 @@ const UserSlice = createSlice({
   },
 });
 
-export { UserSlice };
+export { userSlice };
